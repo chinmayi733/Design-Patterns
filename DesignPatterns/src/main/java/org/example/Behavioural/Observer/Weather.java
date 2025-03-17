@@ -17,21 +17,18 @@ public class Weather implements Subject{
         observers.remove(observer);
     }
 
-    Weather (int temperature, int humidity)
-    {
-        this.temperature = temperature;
-        this.humidity = humidity;
-    }
-    {
-        this.temperature = 30;
-        this.humidity = 50;
-    }
-
     @Override
     public void notifyObservers() {
         for(Observer observer: observers)
         {
             observer.notified(this.temperature,this.humidity);
         }
+    }
+
+    public void setMeasurements(int temperature, int humidity)
+    {
+        this.temperature = temperature;
+        this.humidity = humidity;
+        notifyObservers();
     }
 }
