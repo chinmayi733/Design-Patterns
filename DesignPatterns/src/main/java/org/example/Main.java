@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.Singleton.SingletonDesignPattern;
-import org.example.Singleton.SingletonEarly;
+import org.example.Creational.Singleton.SingletonDesignPattern;
+import org.example.Creational.Singleton.SingletonEarly;
 
 public class Main {
     public static void main(String[] args) {

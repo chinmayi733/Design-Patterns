@@ -1,4 +1,4 @@
-package org.example.BuilderDesign;
+package org.example.Creational.BuilderDesign;
 
 public class StudentDirector {
 

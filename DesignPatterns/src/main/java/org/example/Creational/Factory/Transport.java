@@ -1,4 +1,4 @@
-package org.example.Factory;
+package org.example.Creational.Factory;
 
 public interface Transport {
      void deliver();

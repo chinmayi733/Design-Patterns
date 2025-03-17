@@ -1,4 +1,4 @@
-package org.example.Factory;
+package org.example.Creational.Factory;
 
 public class SeaTransport implements Transport{
     @Override
