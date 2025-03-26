@@ -3,7 +3,6 @@ package org.example.Behavioural.Observer;
 import java.util.ArrayList;
 
 public class Weather implements Subject{
-
     private int temperature;
     private int humidity;
     private ArrayList<Observer> observers = new ArrayList<>();
